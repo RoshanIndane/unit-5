@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  color:brown;
+  background-color: cadetblue;
+}
+body{
+  color: rgb(247, 218, 184);
+}
+button{
+  padding: 5px 20px ;
+  color: white;
+  background-color: darkblue;
+}
