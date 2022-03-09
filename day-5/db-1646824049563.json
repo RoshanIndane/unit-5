@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "sugar",
+      "purchased": false,
+      "id": 1
+    },
+    {
+      "title": "chocolate",
+      "purchased": false,
+      "id": 2
+    },
+    {
+      "title": "dal",
+      "purchased": false,
+      "id": 3
+    }
+  ]
+}

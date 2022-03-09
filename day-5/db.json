@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "title": "sugar",
+      "purchased": false,
+      "id": 1
+    },
+    {
+      "title": "chocolate",
+      "purchased": false,
+      "id": 2
+    },
+    {
+      "title": "dal",
+      "purchased": false,
+      "id": 3
+    },
+    {
+      "title": "sugar",
+      "purchased": false,
+      "id": 4
+    },
+    {
+      "title": "basmati rice",
+      "purchased": false,
+      "id": 5
+    },
+    {
+      "title": "",
+      "purchased": false,
+      "id": 6
+    },
+    {
+      "title": "maggie",
+      "purchased": false,
+      "id": 7
+    },
+    {
+      "title": "laddu",
+      "purchased": false,
+      "id": 8
+    },
+    {
+      "title": "",
+      "purchased": false,
+      "id": 9
+    }
+  ]
+}

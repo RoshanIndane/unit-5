@@ -29,7 +29,7 @@ function App() {
     <div className="main">
       <div className="App">
         <div className="top">
-          <div className="head"><h1><span className="To">To</span><span className="do">Do</span> List </h1></div>
+          <div className="head"><h1><span className="To">Gros</span><span className="do">ery</span> List </h1></div>
           <div className="inp">
             <input type="text" value={inputlist} onChange={inpitem} placeholder="Enter your ToDo task here..." />
             <button className="add" onClick={additems}>Add</button>
@@ -38,7 +38,7 @@ function App() {
         <div className="ul">
           {items.map((list, index) => {
             return (
-              <h4><Todolist key={index} id={index} list={list} onSelect={delfun} /></h4>
+              <h4><Todolist key={index} id={index} list={list} onSelect={delfun}/></h4>
             );
           })}
         </div>
