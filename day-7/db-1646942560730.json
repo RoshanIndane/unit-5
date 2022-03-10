@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "Name": "Roshan Indane",
+      "Age": "24",
+      "Address": "A-406, vaastu viva, near bhumkar chowk, wakad, pimpri chichwad, pune.",
+      "Department": "Oprations",
+      "Salary": "60000",
+      "Marital_state": "married",
+      "id": 1
+    }
+  ]
+}
