@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "Name": "Roshan Indane",
+      "Age": "24",
+      "Address": "A-406, vaastu viva, near bhumkar chowk, wakad, pimpri chichwad, pune.",
+      "Department": "Oprations",
+      "Salary": "60000",
+      "Marital_state": "married",
+      "id": 1
+    },
+    {
+      "Name": "Roshan Indane",
+      "Age": "14",
+      "Address": "A-406, vaastu viva, near bhumkar chowk, wakad, pimpri chichwad, pune.",
+      "Department": "machanical",
+      "Salary": "10000",
+      "Marital_state": "married",
+      "id": 2
+    },
+    {
+      "Name": "Rushab anant Band",
+      "Age": "22",
+      "Address": "peshwe plot near postal ground yavatmal",
+      "Department": "it",
+      "Salary": "50000",
+      "Marital_state": "unmarried",
+      "id": 3
+    }
+  ]
+}

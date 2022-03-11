@@ -46,8 +46,21 @@ export const Forms = ()=>{
                 Marital_state:"",
 
             });
+
+            details();
         });
     };
+
+    const details=()=>{
+        axios.get("http://localhost:5001/users").then((res)=>{
+            let allData=res.data;
+            setFormData(allData);
+        })
+    };
+
+    useEffect(()=>{
+        details();
+    },[])
 
     return (
       <div>  <form onSubmit={handleSubmit}>
@@ -107,13 +120,20 @@ export const Forms = ()=>{
             </div>
         </form>
 
-        {/* {
-            users.map((e)=>(
-                <div>key={e.id},{e.Name}</div>
+        {
+            formData.map((e)=>(
+                <tr>
+              <td >{e.Name}</td>
+              <td>{e.Age}</td>
+              <td>{e.Address}</td> 
+              <td>{e.Department}</td>
+              <td>{e.Marital_state}</td>
+              <td>{e.Salary}</td>
+            </tr>
             ))
 
 
-        } */}
+        }
         </div>
       
     )

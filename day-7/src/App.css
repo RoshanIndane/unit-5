@@ -8,3 +8,7 @@ input{
 h1{
   text-align: center;
 }
+/* tr,td{
+ text-align: center;
+ border: 2px double black;
+} */
